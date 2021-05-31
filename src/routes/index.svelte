@@ -11,8 +11,10 @@
 	});
 </script>
 
-<h1>The count is {count_value}</h1>
+<div class="counter flex-col justify-center">
+	<h1>The count is {count_value}</h1>
 
-<Incrementer />
-<Decrementer />
-<Resetter />
+	<Incrementer />
+	<Decrementer />
+	<Resetter />
+</div>

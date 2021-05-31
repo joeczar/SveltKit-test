@@ -17,9 +17,12 @@
 	onDestroy(unsubscribe);
 </script>
 
-<div class={$theme + ` site-wrapper h-screen bg-gray-100 dark:bg-gray-800 flex-col items-center`}>
+<div class={$theme + ` site-wrapper h-screen flex-col items-center`}>
 	<header>
-		<nav id="header" class="w-full z-30top-10  py-1 bg-white shadow-lg border-b border-blue-400">
+		<nav
+			id="header"
+			class="base w-full z-30top-10 py-1 bg-white shadow-lg border-b border-blue-400"
+		>
 			<div class="w-full flex items-center justify-between mt-0 px-6 py-2">
 				<label for="menu-toggle" class="cursor-pointer md:hidden block">
 					<svg
@@ -83,5 +86,7 @@
 			</div>
 		</nav>
 	</header>
-	<slot />
+	<main class="base flex-col items-center h-full">
+		<slot />
+	</main>
 </div>
