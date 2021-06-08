@@ -1,5 +1,5 @@
 <script>
-	import { count } from '../../src/stores';
+	import { count } from './stores';
 
 	function decrement() {
 		console.log('decrease');

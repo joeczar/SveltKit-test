@@ -1,5 +1,5 @@
 <script>
-	import { count } from '../../src/stores';
+	import { count } from './stores';
 
 	function reset() {
 		count.set(0);

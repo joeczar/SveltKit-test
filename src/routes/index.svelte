@@ -1,5 +1,5 @@
 <script>
-	import { count } from '../stores';
+	import { count } from '../lib/stores';
 	import Incrementer from '$lib/Incrementer.svelte';
 	import Decrementer from '$lib/Decrementer.svelte';
 	import Resetter from '$lib/Resetter.svelte';
