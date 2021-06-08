@@ -6,7 +6,7 @@
 	import { browser } from '$app/env';
 
 	import { onMount } from 'svelte';
-	import Nav from '$lib/nav.svelte';
+	import Nav from '$lib/nav/nav.svelte';
 	import type { Theme } from 'src/global';
 
 	const unsubscribe = theme.subscribe(function (value) {
